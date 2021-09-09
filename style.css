@@ -1,0 +1,349 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(banner.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+  padding-bottom: 30px;
+  /* object-fit: contain; */
+}
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.19);
+  z-index: 1;
+  position: absolute;
+}
+header {
+  text-align: center;
+  justify-content: center;
+  z-index: 100;
+}
+.mem {
+  padding: 10px;
+  z-index: 100;
+  margin-bottom: 60vh;
+}
+span.menu {
+  width: 1.8rem;
+  height: 5px;
+  background-color: white;
+  display: block;
+  margin-bottom: 5px;
+  /* margin: 5px 50% 5px; */
+  /* left: 50%; */
+  z-index: 100;
+}
+.banner-container {
+  display: flex;
+  padding: 15px;
+  width: 80%;
+  justify-self: center;
+  margin: auto auto;
+}
+.about {
+  margin-right: 25px;
+  width: 45%;
+  text-align: center;
+  justify-content: center;
+  margin: auto 25px;
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+  font-style: italic;
+}
+.about-text {
+  width: 75%;
+  padding: 40px 10px;
+  text-align: justify;
+  background-color: white;
+}
+.article-section {
+  background-color: rgb(217, 177, 179);
+  width: 100%;
+  min-height: 85vh;
+  padding: 7% 10%;
+  font-size: 1.99rem;
+  font-style: italic;
+  line-height: 50px;
+  color: white;
+}
+span.large {
+  font-size: 3rem;
+}
+.small-text {
+  font-size: 1.4rem;
+  line-height: 25px;
+  font-style: normal;
+  max-width: 50%;
+}
+/* .gallery-section{} */
+.gallery {
+  display: flex;
+  height: 5%;
+  width: 100%;
+}
+.gallery img {
+  max-width: 33.3%;
+  margin: 0px;
+  /* object-fit: contain; */
+}
+
+.coming-soon-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px;
+  margin: auto;
+  width: 100%;
+  /* min-height: 30vh; */
+
+  background-color: rgb(217, 177, 179) !important;
+}
+.coming-soon-section h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.coming-soon-section h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 40px;
+}
+.coming-soon-section input {
+  background: white;
+  border: unset;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: auto 10px;
+  font-family: "Roboto";
+}
+.coming-soon-section form{
+  padding-bottom: 30px;
+}
+.btn {
+  background: black;
+  border: unset;
+  /* height: 40px; */
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: white;
+  font-family: "Roboto";
+}
+/* .left, */
+.discussion-section{
+  display: block;
+}
+.discussion {
+  display: flex;
+  padding: 10%;
+  width: 100%;
+  margin: 0px auto;
+}
+.left img {
+  /* background-image: url(./article-img.jpeg); */
+  /* backgroun4d-repeat: no-repeat; */
+  margin-right: 40px;
+  /* background-size: cover; */
+  /* width: auto; */
+  height: 460px;
+  object-fit: contain;
+  /* zoom: 50%; */
+}
+.right {
+  /* width: ; */
+  font-size: 20px;
+  justify-content: center;
+  padding: 4%;
+}
+.right p {
+  margin-top: auto 0px;
+  text-align: justify;
+}
+.collections {
+  width: 100%;
+  /* padding: 10%; */
+  margin: 0 auto;
+  padding: 80px 10px;
+  
+  background-color: rgb(217, 177, 179);
+  
+}
+.collector{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.collection {
+  /* height: 300px; */
+  object-fit: contain;
+  display: contents;
+  margin: 0px 5px;
+}
+.collection img {
+  height: 350px;
+  object-fit: contain;
+  margin: 0px 5px;
+
+  /* display: contents; */
+}
+.collections-header{
+  color: white;
+  font-size: 70px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin: 20px auto 40px;
+}
+.arrow {
+  color: white;
+  font-size: 70px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin: 20px auto 40px;
+}
+.product-container{
+  width: 100%;
+  padding: 5%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
+.col-4{
+  width: 30%;
+  height: 350px;
+  margin: 10px;
+
+}
+
+
+.text p{
+  font-size: 20px;
+  font-weight: normal;
+  line-height: normal;
+  margin: 20px 0px;
+  color: rgb(48, 47, 47);
+}
+.text h2{
+  font-size: 45px;
+  font-weight:lighter;
+  line-height: 50px;
+  margin: 30px 0px;
+}
+.text h1{
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 50px;
+  margin: 20px 0px;
+}
+.pic1{
+  background-image: url(./product-1.jpg);
+  background-repeat: no-repeat;
+  /* background-clip: border-box; */
+  background-size: cover;
+  background-position-y: center;
+}
+.pic2{
+  background-image: url(./product-2.jpg);
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  background-position: center;
+}
+.btn2{
+  background: black;
+  border: unset;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: white;
+  font-family: "Roboto";
+}
+.footer {
+  width: 100%;
+display: flex;
+height: 100vh;
+}
+.footer-left{
+  width: 50%;
+  background-image: url(./subscribe.jpeg);
+  background-repeat: no-repeat;
+  /* background-clip: border-box; */
+  background-size: cover;
+  background-position-y: center
+}
+.footer-right{
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  padding: 5% 5%;
+  justify-content: space-around;
+  margin: 0% auto;
+}
+hr{
+  height: 20px;
+  border: none;
+  margin-bottom: -10px;
+  background-color: rgb(217, 177, 179);
+}
+.footer-right form{
+  align-self: center;
+}
+.footer-right h1{
+  color: black;
+  font-size: 60px;
+  font-weight: bolder;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-right input{
+  background: white;
+  border-color: rgb(75, 74, 74) !important;
+  border-width: 0.5px;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: auto 10px;
+  font-family: "Roboto";
+  margin-top: -30px;
+
+}
+.footer-right button{
+  width: max-content;
+  align-self: center !important;
+  margin-top: -30px;
+  font-size: 20px;
+  padding: 10px 18px;
+}
+.footer-right p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: normal;
+  width: 75%;
+  margin: 20px 0px;
+  color: rgb(48, 47, 47);
+  margin-top: -30px;
+  align-self: center !important;
+
+}
