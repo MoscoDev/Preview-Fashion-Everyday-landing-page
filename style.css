@@ -3,6 +3,7 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: "Roboto";
+  /* width: 100%; */
 }
 .banner {
   width: 100%;
@@ -345,5 +346,127 @@ hr{
   color: rgb(48, 47, 47);
   margin-top: -30px;
   align-self: center !important;
+}
 
+/* Responsive */
+@media (max-width: 687px){
+  *{
+    width: 100%;
+  }
+  .mem{
+    margin-bottom: 20vh;
+  }
+  .banner-container{
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+  .about{
+    width: 100%;
+  }
+  .about h1{
+    margin: 0 0 10px;
+    width: 100%;
+  }
+  .small-text{
+    max-width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .coming-soon-section form{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+  }
+  .coming-soon-section input{
+    margin-bottom: 15px;
+  }
+  .btn {
+    background: black;
+    border: unset;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto";
+    margin: auto 10px;
+    width: max-content;
+    padding: 10px 15px;
+
+  }
+.discussion{
+  flex-direction: column;
+  width: fit-content;
+}
+.left img{
+  margin: 0px;
+  width: 100%;
+  padding: 4%;
+  height: max-content;
+}
+.collector{
+  /* flex-direction: column; */
+  width: 100%;
+  display: none;
+}
+.product-container{
+  flex-direction: column;
+}
+.col-4{
+  width: 100% ;
+  height: 500px;
+}
+.text{
+ height: max-content; 
+}
+.btn2{
+  margin: 20px auto;
+}
+.text h1{
+  margin: 10px;
+}
+.footer{
+  flex-direction: column;
+  width: 100vw;
+}
+.footer-left{
+  height: 400px;
+  width: 100%;
+}
+.footer-right{
+  flex-direction: column;
+  height: 400px;
+}
+.footer-right h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: bolder;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  text-align: center;
+}
+.footer-right form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.footer-right input {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  width: max-content;
+  align-self: center;
+}
+.footer-right button{
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.footer-right p{
+  margin: auto;
+}
+hr{
+  margin-bottom: 10px;
+}
 }
